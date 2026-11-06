@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Page"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/showUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:focusable="false"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/showWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Welcome Message"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:focusable="false"
+        android:clickable="false"
+        android:cursorVisible="false"/>
+
+</LinearLayout>
